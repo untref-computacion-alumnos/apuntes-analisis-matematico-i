@@ -16,8 +16,15 @@ project:
     - file: contenidos/introduccion.md
     - title: Apuntes
       children:
-        - file: contenidos/apuntes/archivo-1.md
-        - file: contenidos/apuntes/archivo-2.md
+        - file: contenidos/apuntes/analisis-de-funciones.md
+        - file: contenidos/apuntes/limites.md
+        - file: contenidos/apuntes/continuidad.md
+        - file: contenidos/apuntes/derivadas.md
+        - file: contenidos/apuntes/teorema-de-rolle.md
+        - file: contenidos/apuntes/numeros-factoriales.md
+        - file: contenidos/apuntes/integrales.md
+        - file: contenidos/apuntes/integrales-definidas.md
+        - file: contenidos/apuntes/primer-teorema-fundamental-del-calculo-integral-y-su-aplicacion.md
     - title: Materiales
       children:
         - title: Ejercicios
