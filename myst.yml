@@ -54,9 +54,9 @@ site:
     hide_search: false
     # outline_maxdepth: number
     twitter: untref
-    favicon: imagenes/sitio/favicon.ico
-    logo_dark: imagenes/sitio/untref-logo-blanco.svg
-    logo: imagenes/sitio/untref-logo-negro.svg
+    favicon: contenidos/imagenes/sitio/favicon.ico
+    logo_dark: contenidos/imagenes/sitio/untref-logo-blanco.svg
+    logo: contenidos/imagenes/sitio/untref-logo-negro.svg
     logo_text: Análisis Matemático I
     logo_url: https://www.untref.edu.ar
     logo_alt: UNTREF - Universidad Nacional de Tres de Febrero
