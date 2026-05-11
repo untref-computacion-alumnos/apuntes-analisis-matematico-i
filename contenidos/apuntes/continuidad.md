@@ -1,126 +1,245 @@
 # Continuidad
 
-## Continuidad en un punto
+Una función $f(x)$ es continua cuando su gráfica no presenta interrupciones, saltos o puntos aislados. Desde el análisis matemático, esto significa que el comportamiento local de la función coincide con su valor en el punto.
 
-Una función es continua en el punto $x=a$ si y sólo si se verifica que:
+## 1. Definición formal
 
-- **La función está definida en él:** $f(a)$ existe.
-- **La función tiene límite finito en ese punto:** $\lim_{x \to a} f(x)$ existe y es finito.
-- **El valor que toma la función en ese punto es igual al límite en él:** $\lim_{x \to a} f(x) = f(a)$.
+### 1.1. Continuidad en un punto
 
-Simbólicamente:
+Para que una función $f$ sea continua en un punto $x = a$, tienen que cumplirse simultáneamente ciertas condiciones:
+
+- Existencia de la imagen.
+- Existencia del límite.
+- Igualdad.
+
+#### 1.1.1. Existencia de la imagen
+
+$f(a)$ tiene que estar definida, o sea, el punto $a$ pertenece al dominio de $f$.
+
+#### 1.1.2. Existencia del límite
+
+Tiene que existir el límite:
 
 $$
-f(x) \text{ es continua en } x=a \iff \lim_{x \to a} f(x) = f(a)
+\lim_{x \to a} [f(x)]
 $$
 
-- Se dice que una función $f$ es **discontinua** en $x=a$ si no es continua en ese punto.
+Esto implica que los límites laterales son iguales.
 
-### Continuidad gráficamente
+$$
+\lim_{x \to a^{-}} [f(x)] = \lim_{x \to a^{+}} [f(x)]
+$$
 
-La idea de un gráfico continuo es que transcurre sin interrupción y sin cambios abruptos.
+#### 1.1.3. Igualdad
 
-![Imagen 1]()
+El valor del límite tiene que coincidir con el valor de la imagen.
 
-Consideremos los siguientes casos en $x=a$:
+$$
+\lim_{x \to a} [f(x)] = f(a)
+$$
 
-- **Caso 1:** $f(a)$ existe, $\lim_{x \to a} f(x)$ existe, pero $\lim_{x \to a} f(x) \neq f(a)$.
-- **Caso 2:** $f(a)$ no existe.
-- **Caso 3:** No existe $\lim_{x \to a} f(x)$.
+### 1.2. Continuidad en un intervalo
 
-![Imagen 2]()
+#### 1.2.1. Intervalo abierto
+
+Es continua en un intervalo abierto $(a, b)$ si lo es en cada punto perteneciente al intervalo.
+
+#### 1.2.2. Intervalo cerrado
+
+Es continua en un intervalo cerrado si lo es en uno abierto $(a, b)$ y además posee continuidad lateral en los extremos.
+
+$$
+\lim_{x \to a^{+}} [f(x)] = f(a)
+$$
+
+$$
+\lim_{x \to b^{-}} [f(x)] = f(b)
+$$
 
 ---
 
-## Familias de funciones continuas en sus dominios
+## 2. Propiedades
 
-- **Polinómicas:** $f(x) = a_{n}x^{n} + \dots + a_{1}x + a_{0}$.
-- **Racionales:** $f(x) = \frac{P(x)}{Q(x)}$, salvo donde $Q(x) = 0$.
-- **Raíces:** $f(x) = \sqrt[n]{x}$ (si $n$ es par, $x \geq 0$).
-- **Trigonométricas:** $\sin(x), \cos(x), \tan(x), \dots$.
-- **Exponenciales:** $f(x) = a^{x}$ con $a > 0$.
-- **Logarítmicas:** $f(x) = \log_{a}(x)$ con $x > 0$.
+Si $f$ y $g$ son funciones continuas en $x = c$ se pueden aplicar ciertas propiedades.
 
-### Propiedades (si $f$ y $g$ son continuas en $x=a$)
+### 2.1. Suma
 
-- **Suma y resta:** $f(x) \pm g(x)$ es continua.
-- **Producto:** $f(x) \cdot g(x)$ es continua.
-- **Cociente:** $\frac{f(x)}{g(x)}$ es continua si $g(a) \neq 0$.
-- **Composición:** $f(g(x))$ es continua si $g$ es continua en $x$ y $f$ en $g(x)$.
+$f + g$ es continua en $c$.
 
----
+### 2.2. Resta
 
-## Discontinuidades
+$f - g$ es continua en $c$.
 
-### Clasificación de las discontinuidades
+### 2.3. Producto
 
-- **Evitables:** Se puede remover la discontinuidad redefiniendo $f$. El límite existe.
-- **Inevitable o esencial:** El límite no existe o es infinito. Pueden ser de salto finito o salto infinito.
+$f \cdot g$ es continua en $c$.
 
-![Imagen 3]()
+### 2.4. Producto por un escalar
 
-#### Ejemplos de clasificación
+$k \cdot f$ es continua en $c$ para cualquier $k \in \mathbb{R}$.
 
-1. **En $x=1$:** Existe el límite $\lim_{x \to 1} f(x)$. [Discontinua evitable]
-2. **En $x=3$:** El $\lim_{x \to 3} f(x)$ no existe por salto. [Discontinua inevitable de salto]
-3. **En $x=5$:** Existe el límite $\lim_{x \to 5} f(x)$ pero no coincide con la función. [Discontinua evitable]
+### 2.5. Cociente
 
-![Imagen 4]()
+$\frac{f}{g}$ es continua en $c$ si $g(0) \neq 0$.
+
+### 2.6. Potencia
+
+$f^{g}$ es continua en $c$, dentro del dominio de definición.
+
+### 2.7. Composición
+
+Si $f$ es continua en $c$ y $g$ es continua en $f(c)$, entonces $(g o f)$ es continua en $c$.
 
 ---
 
-## Asíntotas
+## 3. Familias de funciones y su continuidad
 
-### Asíntota Vertical (A.V.)
+### 3.1. Polinómicas
 
-La recta $x=a$ es una asíntota vertical si:
+Son continuas en todo su dominio ($\mathbb{R}$).
 
 $$
-\lim_{x \to a} f(x) = \infty
+f(x) = a_{n}x^{n} + \dots + a_{1}x + a_{0}
 $$
 
-### Asíntota Horizontal (A.H.)
+### 3.2. Racionales
 
-La recta $y=L$ es una asíntota horizontal si:
+Son continuas en su dominio, donde el denominador **no** es 0.
+
+$$
+f(x) = \frac{P(x)}{Q(x)}, \ Q(x) \neq 0
+$$
+
+### 3.3. Radicales
+
+Son continuas en su dominio, teniendo en cuenta índices pares y valores negativos.
+
+$$
+f(x) = \sqrt[n]{x}, n \text{ es par}, x \geq 0
+$$
+
+### 3.4. Trigonométricas
+
+$\sin(x)$ y $\cos(x)$ son continuas en $\mathbb{R}$. $\tan(x)$ es discontinua en $x = \frac{\pi}{2} + k\pi$.
+
+$$
+\sin(x), \cos(x), \tan(x), \dots
+$$
+
+### 3.5. Exponenciales
+
+Son continuas en todo su dominio ($\mathbb{R}$).
+
+$$
+f(x) = a^{x}, a > 0
+$$
+
+### 3.6. Logarítmicas
+
+Son continuas en $(0, + \infty)$.
+
+$$
+f(x) = \log_{a}(x), x > 0
+$$
+
+---
+
+## 3. Discontinuidades
+
+Las discontinuidades se pueden clasificar en **evitables** y **esenciales**.
+
+### 3.1. Evitables
+
+Existe el límite finito $L$, pero $f(c) \neq L$ o $f(c)$ no existe.
+
+Se puede remover la discontinuidad redefiniendo $f$.
+
+El límite existe.
+
+#### 3.1.1. Ejemplo
+
+$$
+f(x) = \frac{x^{2} - 1}{x - 1}
+$$
+
+En $x = 1$.
+
+- El límite existe.
+- $f(1)$ no existe.
+
+### 3.2. Esenciales
+
+No existe el límite finito en el punto.
+
+Pueden dividirse en **salto finito** y **salto infinito**.
+
+#### 3.2.1. Salto finito
+
+Ambos son finitos.
+
+$$
+\lim_{x \to c^{-}} [f(x)] \neq \lim_{x \to c^{+}} [f(x)]
+$$
+
+#### 3.2.2. Salto infinito
+
+Al menos un límite lateral tiende a $\plusmn \infty$, o sea, tiene una **asíntota vertical**.
+
+**Por ejemplo**:
+
+$$
+f(x) = \frac{1}{x - 2}
+$$
+
+En $x = 2$ hay una discontinuidad esencial.
+
+---
+
+## 4. Comportamiento asintótico
+
+### 4.1. Asíntota vertical
+
+La recta $x = c$ es una asíntota vertical si:
+
+$$
+\lim_{x \to c} f(x) = \plusmn \infty
+$$
+
+### 4.2. Asíntota horizontal
+
+La recta $y = L$ es una asíntota horizontal si:
 
 $$
 \lim_{x \to \pm\infty} f(x) = L
 $$
 
-(siendo $L$ un número finito)
+> Siendo $L$ un número finito.
 
-### Asíntota Oblicua
+### 4.3. Asíntota oblicua
 
 La recta $y = px + b$ ($p \neq 0$) es una asíntota oblicua si:
 
-- **Pendiente:** $p = \lim_{x \to \infty} \frac{f(x)}{x}$.
-- **Ordenada:** $b = \lim_{x \to \infty} [f(x) - p \cdot x]$.
+- **Pendiente**: $p = \lim_{x \to \infty} \frac{f(x)}{x}$.
+- **Ordenada**: $b = \lim_{x \to \infty} [f(x) - p \cdot x]$.
 
 ---
 
-## TEOREMAS DE CONTINUIDAD
+## 5. Teoremas
 
-### Continuidad en un intervalo
+### 5.1. Teorema del Valor Intermedio
 
-Una función es continua en un intervalo cerrado $[a, b]$ si es continua en todos los puntos de $(a, b)$ y además se cumple:
+Si $f$ es continua en $[a, b]$, la función toma todos los valores correspondientes entre $f(a)$ y $f(b)$.
 
-- $\lim_{x \to a^{+}} f(x) = f(a)$.
-- $\lim_{x \to b^{-}} f(x) = f(b)$.
+O sea, para cualquier $N$ entre $f(a)$ y $f(b)$, existe un $c \in (a, b)$ tal que $f(c) = N$.
 
-![Imagen 5]()
+### 5.2. Teorema de Bolzano (Corolario)
 
-### Teorema del Valor Intermedio
+Si $f$ es continua en el intervalo cerrado $[a, b]$ y tiene distinto signo en sus extremos $(f(a) \cdot g(b) < 0)$, entonces existe por lo menos un punto $c \in (a, b)$ tal que $f(c) = 0$.
 
-Si $f$ es continua en $[a, b]$ y $N$ es cualquier número entre $f(a)$ y $f(b)$ (con $f(a) \neq f(b)$), entonces existe un número $c$ en $(a, b)$ tal que $f(c) = N$.
+Este punto es una **raíz** de la función.
 
-![Imagen 6]()
-
-### Teorema de Bolzano (Corolario)
-
-Si $f$ es continua en $[a, b]$ y el signo de $f(a) \neq$ signo de $f(b)$, entonces existe al menos un $c \in (a, b)$ tal que $f(c) = 0$.
-
-### Teorema de Weierstrass
+### 5.3. Teorema de Weierstrass
 
 Toda función continua en un intervalo cerrado alcanza su máximo y mínimo absoluto dentro del intervalo o en sus extremos.
 
-![Imagen 7]()
+Si $f$ es continua en un intervalo cerrado $[a, b]$, entonces $f$ alcanza siempre un **máximo absoluto** y un **mínimo absoluto** dentro de dicho intervalo.
