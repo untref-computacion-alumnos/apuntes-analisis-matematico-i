@@ -179,7 +179,7 @@ $$
 
 Se definen cuando la variable independiente $x$ tiende a $+ \infty$ o $- \infty$. Si este límite es un valor finito $L$, la función posee una **asíntota horizontal** en $y = L$.
 
-#### 3.2.1 Ejemplo
+#### 3.2.1. Ejemplo
 
 Para la función:
 
@@ -907,7 +907,7 @@ $$
 \lim_{x \to 0} [\frac{1 - x^{2}}{x^{2}}] = \frac{1 - (0)^{2}}{(0)^{2}} = \frac{1 - 0}{0} = \frac{1}{0} = \infty
 $$
 
-#### 6.4.3 Ejemplo 3
+#### 6.4.3. Ejemplo 3
 
 $$
 \lim_{x \to 0} [\frac{1}{\sin^{2}(x)} - \cot^{2}(x)] = \frac{1}{\sin^{2}(0)} - \cot^{2}(0) = \frac{1}{0} - \infty = \infty - \infty
@@ -935,7 +935,7 @@ $$
 
 ### 6.5. Límite de funciones exponenciales
 
-#### 6.5.1 Ejemplo
+#### 6.5.1. Ejemplo
 
 $$
 \lim_{x \to \infty} [3^{- x + 2}]
@@ -977,7 +977,7 @@ $$
 
 Para resolver límites complejos, se puede sustituir la variable.
 
-### 7.1 Ejemplo 1
+### 7.1. Ejemplo 1
 
 $$
 \lim_{x \to \pi} [\frac{\sin(x)}{x - \pi}]
