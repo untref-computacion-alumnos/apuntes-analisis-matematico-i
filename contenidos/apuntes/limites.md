@@ -449,7 +449,7 @@ $$
 Con el límite:
 
 $$
-\lim_{x \to \infty} [(1 + \frac{1}{x})^{x}] = (1 + \frac{1}{(\infty)})^{(\infty)} = (1 + 0)^{(\infty)} = 1^{(\infty)} \rightarrow indeterminación
+\lim_{x \to \infty} [(1 + \frac{1}{x})^{x}] = (1 + \frac{1}{(\infty)})^{(\infty)} = (1 + 0)^{(\infty)} = 1^{(\infty)} \rightarrow \text{ indeterminación}
 $$
 
 Se verifican la siguientes propiedades:
@@ -482,7 +482,7 @@ Las indeterminaciones más comunes son:
 #### 6.1.1. Ejemplo con función racional con polinomios
 
 $$
-\lim_{x \to 2} [\frac{x^{3} - 2x^{2} - 6x + 12}{x^{2} + 3x - 10}] = \frac{(2)^{3} - 2(2)^{2} - 6(2) + 12}{(2)^{2} + 3(2) - 10} = \frac{8 - 8 - 12 + 12}{4 + 6 - 10} = \frac{0}{0} \rightarrow indeterminación
+\lim_{x \to 2} [\frac{x^{3} - 2x^{2} - 6x + 12}{x^{2} + 3x - 10}] = \frac{(2)^{3} - 2(2)^{2} - 6(2) + 12}{(2)^{2} + 3(2) - 10} = \frac{8 - 8 - 12 + 12}{4 + 6 - 10} = \frac{0}{0} \rightarrow \text{ indeterminación}
 $$
 
 $$
@@ -494,7 +494,7 @@ $$
 $$
 
 $$
-\lim_{x \to 2} [\frac{x^{2} - 6}{x + 5}] \rightarrow sin \ indeterminación
+\lim_{x \to 2} [\frac{x^{2} - 6}{x + 5}] \rightarrow \text{ sin indeterminación}
 $$
 
 $$
@@ -504,7 +504,7 @@ $$
 #### 6.1.2. Ejemplo con función racional con radicación
 
 $$
-\lim_{x \to 2} [\frac{\sqrt{x^{2} + 5} - 3}{x^{2} - 2x}] = \frac{\sqrt{(2)^{2} + 5} - 3}{(2)^{2} - 2(2)} = \frac{\sqrt{4 + 5} - 3}{4 - 4} = \frac{\sqrt{9} - 3}{0} = \frac{3 - 3}{0} = \frac{0}{0} \rightarrow indeterminación
+\lim_{x \to 2} [\frac{\sqrt{x^{2} + 5} - 3}{x^{2} - 2x}] = \frac{\sqrt{(2)^{2} + 5} - 3}{(2)^{2} - 2(2)} = \frac{\sqrt{4 + 5} - 3}{4 - 4} = \frac{\sqrt{9} - 3}{0} = \frac{3 - 3}{0} = \frac{0}{0} \rightarrow \text{ indeterminación}
 $$
 
 $$
@@ -548,13 +548,13 @@ $$
 $$
 
 $$
-\lim_{x \to 2} [\frac{x + 2}{x \cdot (\sqrt{x^{2} + 5} + 3)}] = \frac{(2) + 2}{(2) \cdot (\sqrt{(2)^{2} + 5} + 3)} = \frac{4}{2 \cdot (\sqrt{4 + 5} + 3)} = \frac{4}{2 \cdot (\sqrt{9} + 3)} = \frac{4}{2 \cdot (3 + 3)} = \frac{4}{2 \cdot 6} = \frac{4}{12} = \frac{1}{3} \rightarrow sin \ indeterminación
+\lim_{x \to 2} [\frac{x + 2}{x \cdot (\sqrt{x^{2} + 5} + 3)}] = \frac{(2) + 2}{(2) \cdot (\sqrt{(2)^{2} + 5} + 3)} = \frac{4}{2 \cdot (\sqrt{4 + 5} + 3)} = \frac{4}{2 \cdot (\sqrt{9} + 3)} = \frac{4}{2 \cdot (3 + 3)} = \frac{4}{2 \cdot 6} = \frac{4}{12} = \frac{1}{3} \rightarrow \text{ sin indeterminación}
 $$
 
 #### 6.1.3. Ejemplo con función trigonométrica
 
 $$
-\lim_{x \to 0} [\frac{\sin(3x)}{5x}] = \frac{\sin(3(0))}{5(0)} = \frac{\sin(0)}{0} = \frac{0}{0} \rightarrow indeterminación
+\lim_{x \to 0} [\frac{\sin(3x)}{5x}] = \frac{\sin(3(0))}{5(0)} = \frac{\sin(0)}{0} = \frac{0}{0} \rightarrow \text{ indeterminación}
 $$
 
 $$
@@ -612,7 +612,7 @@ $$
 #### 6.1.5. Ejemplo con función trigonométrica con otra resta
 
 $$
-\lim_{x \to 0} [\frac{1 - \cos(x)}{x}] = \frac{1 - \cos((0))}{0} = \frac{1 - 1}{0} = \frac{0}{0} \rightarrow indeterminación
+\lim_{x \to 0} [\frac{1 - \cos(x)}{x}] = \frac{1 - \cos((0))}{0} = \frac{1 - 1}{0} = \frac{0}{0} \rightarrow \text{ indeterminación}
 $$
 
 $$
@@ -664,7 +664,7 @@ Se extrae "factor común forzado" (la mayor potencia) en el numerador y denomina
 #### 6.2.1. Ejemplo con función racional con polinomios
 
 $$
-\lim_{x \to \infty} [\frac{3x^{4} + 5x - 4}{5x^{4} + x^{2} + 1}] = \frac{3(\infty)^{4} + 5(\infty) - 4}{5(\infty)^{4} + (\infty)^{2} + 1} = \frac{\infty + \infty - \infty}{\infty + \infty + \infty} = \frac{\infty}{\infty} \rightarrow indeterminación
+\lim_{x \to \infty} [\frac{3x^{4} + 5x - 4}{5x^{4} + x^{2} + 1}] = \frac{3(\infty)^{4} + 5(\infty) - 4}{5(\infty)^{4} + (\infty)^{2} + 1} = \frac{\infty + \infty - \infty}{\infty + \infty + \infty} = \frac{\infty}{\infty} \rightarrow \text{ indeterminación}
 $$
 
 $$
@@ -690,7 +690,7 @@ $$
 #### 6.2.2. Ejemplo con función racional con radicación
 
 $$
-\lim_{x \to + \infty} [\frac{x^{3}}{\sqrt{x^{6} + 4}}] = \frac{(\infty)^{3}}{\sqrt{(\infty)^{6} + 4}} = \frac{\infty}{\sqrt{\infty + 4}} = \frac{\infty}{\sqrt{\infty}} = \frac{\infty}{\infty} \rightarrow indeterminación
+\lim_{x \to + \infty} [\frac{x^{3}}{\sqrt{x^{6} + 4}}] = \frac{(\infty)^{3}}{\sqrt{(\infty)^{6} + 4}} = \frac{\infty}{\sqrt{\infty + 4}} = \frac{\infty}{\sqrt{\infty}} = \frac{\infty}{\infty} \rightarrow \text{ indeterminación}
 $$
 
 $$
