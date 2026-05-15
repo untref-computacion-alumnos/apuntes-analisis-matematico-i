@@ -1,4 +1,4 @@
-# Análisis Matemático I - Recuperatorio Primer Parcial 2023 - ##/##/2023
+# Análisis Matemático I - Recuperatorio Primer Parcial - ##/##/2023
 
 ## Ejercicio 1
 
