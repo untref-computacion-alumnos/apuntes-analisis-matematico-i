@@ -37,6 +37,7 @@ project:
             - file: contenidos/materiales/trabajos-practicos/archivo-2.md
         - title: Exámenes
           children:
+            - file: contenidos/materiales/examenes/parcial-1-##-##-##.md
             - file: contenidos/materiales/examenes/parcial-1-24-09-2015.md
             - file: contenidos/materiales/examenes/parcial-1-26-09-2022.md
             - file: contenidos/materiales/examenes/parcial-1-##-##-2024-1.md
