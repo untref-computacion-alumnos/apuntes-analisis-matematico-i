@@ -20,7 +20,7 @@ project:
         - file: contenidos/apuntes/limites.md
         - file: contenidos/apuntes/continuidad.md
         - file: contenidos/apuntes/derivadas.md
-        - file: contenidos/apuntes/teorema-de-rolle.md
+        - file: contenidos/apuntes/teoremas-de-derivabilidad.md
         - file: contenidos/apuntes/numeros-factoriales.md
         - file: contenidos/apuntes/integrales.md
         - file: contenidos/apuntes/integrales-definidas.md
@@ -38,6 +38,7 @@ project:
         - title: Exámenes
           children:
             - file: contenidos/materiales/examenes/parcial-1-24-09-2015.md
+            - file: contenidos/materiales/examenes/parcial-1-26-09-2022.md
             - file: contenidos/materiales/examenes/parcial-1-##-##-2024-1.md
             - file: contenidos/materiales/examenes/parcial-1-##-##-2024-2.md
             - file: contenidos/materiales/examenes/recuperatorio-parcial-1-##-##-2023.md
