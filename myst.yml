@@ -37,15 +37,16 @@ project:
             - file: contenidos/materiales/trabajos-practicos/archivo-2.md
         - title: Exámenes
           children:
-            - file: contenidos/materiales/examenes/parcial-1-##-##-##.md
-            - file: contenidos/materiales/examenes/parcial-1-17-05-2008.md
-            - file: contenidos/materiales/examenes/parcial-1-14-05-2015.md
-            - file: contenidos/materiales/examenes/parcial-1-24-09-2015.md
-            - file: contenidos/materiales/examenes/parcial-1-26-09-2022.md
-            - file: contenidos/materiales/examenes/parcial-1-##-##-2024-1.md
-            - file: contenidos/materiales/examenes/parcial-1-##-##-2024-2.md
-            - file: contenidos/materiales/examenes/recuperatorio-parcial-1-##-##-2023.md
-            - file: contenidos/materiales/examenes/final-17-02-2021.md
+            - file: contenidos/materiales/examenes/parcial-1-####-##-##.md
+            - file: contenidos/materiales/examenes/parcial-1-2008-05-17.md
+            - file: contenidos/materiales/examenes/parcial-1-2009-10-21.md
+            - file: contenidos/materiales/examenes/parcial-1-2015-05-09.md
+            - file: contenidos/materiales/examenes/parcial-1-2015-09-24.md
+            - file: contenidos/materiales/examenes/parcial-1-2022-09-26.md
+            - file: contenidos/materiales/examenes/parcial-1-2024-##-##-1.md
+            - file: contenidos/materiales/examenes/parcial-1-2024-##-##-2.md
+            - file: contenidos/materiales/examenes/recuperatorio-parcial-1-2023-##-##.md
+            - file: contenidos/materiales/examenes/final-2021-02-17.md
 site:
   template: book-theme
   title: Apuntes de Análisis Matemático I
