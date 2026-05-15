@@ -38,6 +38,7 @@ project:
         - title: Exámenes
           children:
             - file: contenidos/materiales/examenes/parcial-1-####-##-##.md
+            - file: contenidos/materiales/examenes/parcial-1-2007-09-29.md
             - file: contenidos/materiales/examenes/parcial-1-2007-10-26.md
             - file: contenidos/materiales/examenes/parcial-1-2008-05-17.md
             - file: contenidos/materiales/examenes/parcial-1-2009-10-21.md
