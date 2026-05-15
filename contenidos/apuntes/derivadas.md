@@ -204,7 +204,7 @@ $$
 f'(2) = 1
 $$
 
-(derivadas-2-1-3-en-x-=-a)=
+(derivadas-2-1-3-en-x-igual-a)=
 
 #### 2.1.3. En $x = a$
 
@@ -232,7 +232,7 @@ $$
 \lim_{x \to a} = [\frac{f(x) - f(a)}{x - a}]
 $$
 
-(derivadas-2-1-4-hallando-f-'-(x))=
+(derivadas-2-1-4-hallando-f-derivada-x)=
 
 #### 2.1.4 Hallando $f'(x)$
 
