@@ -51,6 +51,7 @@ project:
             - file: contenidos/materiales/examenes/parcial-1-2024-##-##-2.md
             - file: contenidos/materiales/examenes/parcial-1-2024-05-##-3.md
             - file: contenidos/materiales/examenes/recuperatorio-parcial-1-2023-##-##.md
+            - file: contenidos/materiales/examenes/recuperatorio-parcial-1-2025-##-##.md
             - file: contenidos/materiales/examenes/final-2021-02-17.md
 site:
   template: book-theme
