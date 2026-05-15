@@ -37,7 +37,8 @@ project:
             - file: contenidos/materiales/trabajos-practicos/archivo-2.md
         - title: Exámenes
           children:
-            - file: contenidos/materiales/examenes/parcial-1-####-##-##.md
+            - file: contenidos/materiales/examenes/parcial-1-####-##-##-1.md
+            - file: contenidos/materiales/examenes/parcial-1-####-##-##-2.md
             - file: contenidos/materiales/examenes/parcial-1-2007-09-29.md
             - file: contenidos/materiales/examenes/parcial-1-2007-10-26.md
             - file: contenidos/materiales/examenes/parcial-1-2008-05-17.md
