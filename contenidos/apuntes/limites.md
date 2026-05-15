@@ -1,5 +1,7 @@
 # Límites
 
+(limites-1-idea-intuitiva-del-limite)=
+
 ## 1. Idea intuitiva del límite
 
 Se empieza con un número $c$ y una función $f(x)$ definida cerca de $c$, aunque no necesariamente en el mismo $c$.
